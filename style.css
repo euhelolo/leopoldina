@@ -8,14 +8,16 @@
 }
 
 .quatro {
-
+    display: block;
     margin: 9px 16px;
     font-size: 24px;
     font-family: 'Abril Fatface', cursive;
-    text-decoration: none;
 }
 
-
+.prog {
+    color: black;
+    text-decoration: none;
+}
 
 * {
     margin: 0;
