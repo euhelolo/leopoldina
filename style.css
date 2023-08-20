@@ -115,6 +115,14 @@ body {
 
     .cabecalho{
         display: block;
+
+    }
+        
+  
+  
+    .escola-div-conteudo{
+       width: 50vw;
+
     }
 
 }
