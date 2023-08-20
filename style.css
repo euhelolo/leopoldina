@@ -34,7 +34,7 @@ body {
 }
 
 #escola{
-    background-image: linear-gradient(#48a4b4,#bffa61);
+    background-image: linear-gradient(#48a4b4,#defa61);
     color:white;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
 .estudante-todos{
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
-    background-color: #bffa61;
+    background-color: #defa61;
 }
 
 .rodape{
