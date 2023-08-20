@@ -1,140 +1,92 @@
-.um {
-    background-color: #4b5fcf;
-    color: rgb(0, 0, 0);
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
 
-.quatro {
-    display: block;
-    margin: 9px 16px;
-    font-size: 24px;
-    font-family: 'Abril Fatface', cursive;
+.cabecalho-imagem{
+    width: 10%;
 }
 
-.prog {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
 }
 
-.nove {
+.escola-imagem{
     width: 25%;
 }
 
-.cinco {
-    background-image: linear-gradient(#4b5fcf, #ffffff);
-    color: rgb(255, 255, 255);
+#escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.conteudo {
+.escola-div-conteudo{
     width: 35%;
 }
 
-.dois {
-    width: 15%;
+
+.escola-titulo{
+    padding: 24px 0;
 }
 
-.seis {
-    padding-bottom: 24px 0;
-
-    font-family: 'Roboto Mono', monospace;
+#estudante{
+    padding: 24px 0;
 }
 
-.sete {
-    padding-bottom: 35px 0;
-    font-family: 'Playfair Display', serif;
-    color: rgb(0, 0, 0);
+
+.estudante-imagem{
+    width: 120px;
 }
 
-.oito {
-    font-family: 'Playfair Display', serif;
-    color: rgb(0, 0, 0);
-}
-
-.alunoimagem {
-    width: 215px;
-}
-
-.alunoimagem2 {
-    width: 215px;
-
-}
-
-.alunoimagem3 {
-    width: 215px;
-
-}
-
-.alunoimagem1 {
-    width: 215px;
-}
-
-.projetoimagem1 {
-    width: 215px;
-}
-
-.estudante-icone {
+.estudante-icone{
     width: 24px;
     padding: 4px 8px;
 }
 
-.estudante-div {
+.estudante-div{
     text-align: center;
     padding: 16px 0;
 }
 
-.todosalunos {
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.alunostitulo {
+.rodape{
+    background-color: black;
     text-align: center;
-    padding: 24px 0;
 }
 
-
-.projetotitulo {
-    text-align: center;
-    padding: 24px 0;
-    background-color: #ffffff;
-}
-
-.todosprojetos {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-image: linear-gradient(#ffffff, #ffe359);
-}
-
-.rodape {
-    background-color: #4b5fcf;
-    text-align: center;
-
-}
-
-.rodape-imagem {
+.rodape-imagem{
     height: 60px;
     padding: 12px 0;
-
+   
 }
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 20px;
-}
-.alunos{
-    background-color: #ffe359;
-}
-
