@@ -55,12 +55,12 @@
 .sete {
     padding-bottom: 35px 0;
     font-family: 'Playfair Display', serif;
-
+    color: rgb(0, 0, 0);
 }
 
 .oito {
     font-family: 'Playfair Display', serif;
-    color: rgb(2, 0, 95);
+    color: rgb(0, 0, 0);
 }
 
 .alunoimagem {
