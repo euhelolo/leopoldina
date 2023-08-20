@@ -91,3 +91,14 @@ body {
     padding: 12px 0;
    
 }
+.projetotitulo {
+    text-align: center;
+    padding: 24px 0;
+    background-color: #ffffff;
+}
+
+.todosprojetos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: linear-gradient(#ffffff, #ffe359);
+}
