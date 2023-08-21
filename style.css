@@ -116,7 +116,7 @@ body {
     margin: auto;
     width: 640px;
     height: 360px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     overflow: hidden;
 
 }
