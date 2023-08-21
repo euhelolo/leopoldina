@@ -113,8 +113,7 @@ body {
 }
 
 .galery {
-    display: grid;
-    grid-template-columns: 100%;
+    margin: auto;
     width: 640px;
     height: 360px;
     background-color: black;
