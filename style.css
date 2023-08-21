@@ -113,10 +113,13 @@ body {
 }
 
 .galery {
+    display: grid;
+    grid-template-columns: 100%;
     width: 640px;
     height: 360px;
     background-color: black;
     overflow: hidden;
+
 }
 
 .galery .fotos {
@@ -131,8 +134,7 @@ width: 19.9%;
 
 }
 .main{
-    display: grid;
-    grid-template-columns: 100%;
+   
     
     background-color: #defa61;
 }
