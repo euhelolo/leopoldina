@@ -121,7 +121,7 @@ body {
 
 .galery .fotos {
     width: 500%;
-    animation-name: animação;
+    animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
