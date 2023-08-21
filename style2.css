@@ -93,3 +93,28 @@ body {
     padding: 12px 0;
    
 }
+.galery {
+    margin: auto;
+    width: 640px;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+width: 19.9%;
+
+}
+.main{
+   
+    
+    background-color: #defa61;
+}
