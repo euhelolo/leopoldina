@@ -114,4 +114,5 @@ body {
     width: 640px;
     height: 360px;
     background-color: black;
+    overflow: hidden;
 }
