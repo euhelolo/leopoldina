@@ -1,11 +1,12 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 .cabecalho {
     background-color: #3c595e;
     color: white;
@@ -15,84 +16,85 @@ body {
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     width: 10%;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     font-size: 16px;
 }
 
-.cabecalho-lista-item a{
-    text-decoration: none; 
+.cabecalho-lista-item a {
+    text-decoration: none;
     color: white;
 }
 
-.escola-imagem{
+.escola-imagem {
     width: 25%;
 }
 
-#escola{
-    background-image: linear-gradient(#3c595e,#89aeda);
-    color:white;
+#escola {
+    background-image: linear-gradient(#3c595e, #89aeda);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.escola-div-conteudo{
+.escola-div-conteudo {
     width: 35%;
 }
 
 
-.escola-titulo{
+.escola-titulo {
     padding: 24px 0;
 }
 
-#estudante{
+#estudante {
     padding: 24px 0;
 }
 
 
-.estudante-imagem{
+.estudante-imagem {
     width: 120px;
 }
 
-.estudante-icone{
+.estudante-icone {
     width: 24px;
     padding: 4px 8px;
 }
 
-.estudante-div{
+.estudante-div {
     text-align: center;
     padding: 16px 0;
 }
 
-.estudante-titulo{
+.estudante-titulo {
     text-align: center;
     padding: 24px 0;
     background-color: #ffffff;
 }
 
-.estudante-todos{
+.estudante-todos {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
-    background-color:#89aeda;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #89aeda;
 }
 
-.rodape{
+.rodape {
     background-color: rgb(95, 101, 116);
     text-align: center;
 }
 
-.rodape-imagem{
+.rodape-imagem {
     height: 60px;
     padding: 12px 0;
-   
+
 }
+
 .galery {
     margin: auto;
     width: 640px;
@@ -109,12 +111,13 @@ body {
     animation-iteration-count: infinite;
 }
 
-.galery .fotos img{
-width: 19.9%;
+.galery .fotos img {
+    width: 19.9%;
 
 }
-.main{
-   
-    
+
+.main {
+
+
     background-color: #89aeda;
 }
