@@ -101,6 +101,7 @@ body {
     height: 360px;
     background-color: rgba(0, 0, 0, 0);
     overflow: hidden;
+    padding: 24px;
 
 }
 
