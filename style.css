@@ -139,7 +139,16 @@ body {
     background-color: #defa61;
 }
 
-.teclado {
+.teclado
+{background-color: beige;
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(3,1fr);
+padding: 10px;
+
+}
+
+.tecla {
 
 
     background-color:#48a4b4 ;
