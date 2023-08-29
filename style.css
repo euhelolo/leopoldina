@@ -164,4 +164,16 @@ outline: none;
 
 }
 
+.tecla.focus {
 
+    outline: none;
+box-shadow: 1px 1px 10px #ffe359;
+
+
+}
+
+
+.tecla.active:focus {
+
+    box-shadow:3px 3px 0 #FF0000;
+}
