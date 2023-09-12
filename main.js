@@ -6,6 +6,6 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-while (true) {
+while (Contador < 9) {
 ListaDeSons[5].onclick = TocaSomToim;
 }
