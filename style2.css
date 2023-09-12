@@ -123,7 +123,7 @@ body {
 }
 
 .teclado {
-    background-color: #d6d6d6;
+    background-color: #89aeda;
     display: gride;
     gap: 10px;
     grid-template-columns: repeat(3, 1 fr);
@@ -131,7 +131,7 @@ body {
 }
 
 .tecla {
-    background-color: #89aeda;
+    background-color: #d4d4d4;
     color: rgb(0, 0, 0);
     padding: 30px;
 }
