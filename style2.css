@@ -121,3 +121,31 @@ body {
 
     background-color: #89aeda;
 }
+
+.teclado {
+    background-color: aqua;
+    display: gride;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1 fr);
+    padding: 10px;
+}
+
+.tecla {
+    background-color: #89aeda;
+    color: yellowgreen;
+    padding: 30px;
+}
+
+ .tecla.ative {
+    background-color: burlywood;
+    color: coral;
+    outline: none;
+}
+
+.tecla:focus{outline: none;
+    box-shadow: 1px 1px 10px black;
+
+}
+.tecla.active:focus{
+    
+}
