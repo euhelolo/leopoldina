@@ -8,7 +8,7 @@ let contador = 0;
 
 while (contador < lista.length) {
     const classe = lista[contador].classList[1];
-    console.log(classe);    
+    console.log(classe);
     const idsom = `#som_${classe}`;
     console.log(idsom);
     lista[contador].onclick = function () {
@@ -20,13 +20,17 @@ while (contador < lista.length) {
     //console.log(contador);
 
     tecla.onkeydown = function (evento) {
-        if (evento.code === 'Space' || evento.code ==='Enter') { 
-        tecla.classList.add('ativa');
-       //console.log(evento.code === 'Space' || evento.code === 'Enter');
+        if (evento.code === 'Space' || evento.code === 'Enter') {
+            tecla.classList.add('ativa');
+            //console.log(evento.code === 'Space' || evento.code === 'Enter');
+        }
+        //  && ||
+
+
     }
-    //  && ||
-tecla.onkeyup = function () { 
-    tecla.classList.remove ('ativa') ;
-} 
+    tecla.onkeyup = function () {
+        tecla.classList.remove('ativa');
+    }
 
 }
+
