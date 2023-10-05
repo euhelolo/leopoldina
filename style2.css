@@ -136,16 +136,20 @@ body {
     padding: 30px;
 }
 
- .tecla.ative {
+ .tecla.ativa, 
+ .tecla:active {
     background-color: burlywood;
     color: coral;
     outline: none;
 }
 
-.tecla:focus{outline: none;
+.tecla.focus,
+.tecla:focus
+{outline: none;
     box-shadow: 1px 1px 10px black;
 
 }
+.tecla.active:focus,
 .tecla.active:focus{
     box-shadow: 3px 3px 0 gray;
 }
