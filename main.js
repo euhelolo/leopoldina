@@ -7,11 +7,12 @@ const lista = document.querySelectorAll('.tecla');
 let contador = 0;
 
 while (contador < lista.length) {
-    const classe = lista[contador].classList[1];
+    const tecla = lista[contador];
+    const classe = tecla.classList[1];
     console.log(classe);
     const idsom = `#som_${classe}`;
     console.log(idsom);
-    lista[contador].onclick = function () {
+    tecla.onclick = function () {
         tocar(idsom);
     }
 
