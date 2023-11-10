@@ -151,7 +151,7 @@ body {
 }
 .tecla.active:focus,
 .tecla.active:focus{
-    box-shadow: 3px 3px 0 rgb(103, 104, 105);
+    box-shadow: 3px 3px 0 rgb(168, 226, 248);
 }
 body{
     background-image:linear-gradient(90deg,#89aeda,#89aeda,#89aeda);
