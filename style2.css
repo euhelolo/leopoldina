@@ -131,14 +131,14 @@ body {
 }
 
 .tecla {
-    background-color: #d4d4d4;
+    background-color: #e28989;
     color: rgb(0, 0, 0);
     padding: 30px;
 }
 
  .tecla.ativa, 
  .tecla:active {
-    background-color: rgb(245, 155, 233)222, 208);
+    background-color: rgb(7, 3, 6)222, 208);
     color: pink;
     outline: none;
 }
