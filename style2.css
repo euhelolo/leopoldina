@@ -154,7 +154,7 @@ body {
     box-shadow: 3px 3px 0 gray;
 }
 body{
-    background-image:linear-gradient(90deg,black,red,black);
+    background-image:linear-gradient(90deg,#89aeda,#89aeda,#89aeda);
   
   }
   h1{
