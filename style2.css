@@ -138,7 +138,7 @@ body {
 
  .tecla.ativa, 
  .tecla:active {
-    background-color: burlywood;
+    background-color: rgb(168, 139, 214)222, 208);
     color: coral;
     outline: none;
 }
