@@ -138,8 +138,8 @@ body {
 
  .tecla.ativa, 
  .tecla:active {
-    background-color: rgb(168, 139, 214)222, 208);
-    color: coral;
+    background-color: rgb(245, 155, 233)222, 208);
+    color: pink;
     outline: none;
 }
 
@@ -176,7 +176,7 @@ body{
     font-family:monospace;
   }
   .bloco{
-    background:rgb(168, 226, 248);
+    background:rgb(190, 223, 236);
   text-align:center;
     width:300px;
     border-style:double;
