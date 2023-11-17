@@ -68,7 +68,7 @@ function texto(){
     var rev1 = num.value;
     var rev2 = num2.value;
     var result = parseFloat(rev1-rev2);
-    var result2 = parseFloat(rev2- rev1);
+    
     var mostrar = document.getElementById("show3");
     var show = "o resultado da subtração é " + result;mostrar.innerHTML = show
     
