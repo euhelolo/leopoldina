@@ -67,10 +67,10 @@ function texto(){
     var num2 = document.getElementById("num3");
     var rev1 = num.value;
     var rev2 = num2.value;
-    var float1 = parseFloat(rev1-rev2);
-    var float2 = parseFloat(rev1 - rev2);
+    var result = parseFloat(rev1-rev2);
+    var result2 = parseFloat(rev2- rev1);
     var mostrar = document.getElementById("show3");
-    var show = "o resultado da subtração é " + float1;mostrar.innerHTML = show
+    var show = "o resultado da subtração é " + result;mostrar.innerHTML = show
     
   }
   
