@@ -187,7 +187,7 @@ body{
     color:white;
   }
   h3{
-    text-align:right;
+   
     font-family:bradley hand, cursive;
   }
   #apresentacao{
@@ -197,7 +197,7 @@ body{
   .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    
   }
   
   .page-title {
@@ -234,7 +234,7 @@ body{
 .calculadora {
   margin: 0 auto;
   width: 294px;
-  background-color: black;
+  background-color: #89aeda);
   border: 1px solid #ddd;
 }
 
